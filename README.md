@@ -9,6 +9,7 @@ vsfs.img — a 348 KB disk image (86 blocks × 4096 bytes) with a valid superblo
 mkfs, validator — prebuilt helper binaries
 journal.o, test_journal.o — leftover object files
 ![imagee alt](https://github.com/md-golamkibria/CPU-journaling-system/blob/21eb19225dc113efcb9a5002935e970154584b3f/cpu%20journaling.png)
+
 #How the journal works (journal.c)
 Classic write-ahead logging with 3-phase commit:
 
